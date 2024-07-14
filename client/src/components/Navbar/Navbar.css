@@ -1,0 +1,56 @@
+.landing-nav {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: #657d9f; /* Move the background color to navbar-container */
+
+  justify-content: space-around;
+  align-items: center;
+  align-items: center;
+}
+
+.navbar {
+  height: 50px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.logos {
+  display: flex;
+  padding-bottom: 40px;
+
+  margin-top: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  margin: 0 15px;
+}
+
+.auth-buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+.button1 {
+  padding: 10px;
+}
+
+.auth-buttons button {
+  background-color: white;
+  color: #4caf50;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.result-website {
+  padding: 40px;
+}

@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  overflow-x: hidden; /* Prevent sideways scrolling */
+}
+
+.sidebar {
+  flex: 1;
+  background-color: #f0f0f0;
+  margin: 5px;
+  /* Other styles for the sidebar */
+}
+
+.dashboardPages {
+  flex: 7;
+  padding: 10px;
+  /* Styles for the dashboard pages */
+}

@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;400;500;700&display=swap");
+
+* {
+  font-family: "Inter", sans-serif;
+}
+.Sidebar {
+  width: 200px;
+  height: 100vh;
+  padding: 24px;
+}
+.logo {
+  margin-bottom: 32px;
+}
+
+.part1element {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  align-items: center;
+}
+.elementname {
+  font-size: 16px;
+  font-weight: 500;
+  color: #7c8493;
+  text-decoration: None !important;
+}
+
+.navlink {
+  text-decoration: none;
+}

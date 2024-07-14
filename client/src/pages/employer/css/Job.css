@@ -1,0 +1,65 @@
+/* Add some general styling to the form */
+form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Style each form label */
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* Style input and textarea fields */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+/* Style the "Add Value" and "Add Specialty" buttons */
+button[type="button"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+/* Style the submit button */
+button[type="submit"] {
+  background-color: #007bff;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Style the file input for the company logo */
+input[type="file"] {
+  margin-top: 5px;
+}
+
+/* Add some spacing between form sections */
+label:first-child {
+  margin-top: 10px;
+}
+
+/* Style the positions input fields and the "Add Position" button */
+label:last-child {
+  margin-top: 20px;
+}
+
+/* Optional: Add some styling to the form when focused or hovered */
+input:focus,
+textarea:focus,
+button:hover {
+  border: 2px solid #007bff;
+  outline: none;
+}

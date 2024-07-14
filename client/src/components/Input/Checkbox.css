@@ -1,0 +1,11 @@
+.checkboxContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 10px; /* Adjust the gap between checkbox and label */
+}
+.checkboxName {
+  margin: 5px;
+  scale: 1.5;
+}

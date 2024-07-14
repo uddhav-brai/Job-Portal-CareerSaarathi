@@ -1,0 +1,42 @@
+.jobDetails {
+  display: flex;
+  flex-direction: row;
+  width: 900px;
+}
+
+.rightDetails {
+  display: flex;
+  width: 260px;
+  padding-left: 30px;
+  flex-direction: column;
+}
+.dateDetails {
+  display: flex;
+  flex-direction: column;
+}
+.aboutRole {
+  display: flex;
+  flex-direction: column;
+}
+
+.roleDetails {
+  display: flex;
+  flex: 1;
+}
+.p {
+  display: inline;
+  white-space: nowrap;
+  margin: 0; /* Reset margin to remove any default margin */
+  padding: 0;
+  white-space: nowrap;
+  margin: 0; /* Reset margin to remove any default margin */
+  padding: 0;
+}
+.listof {
+  list-style: none;
+  padding-left: 0;
+}
+
+.listof li {
+  margin-bottom: 8px;
+}
